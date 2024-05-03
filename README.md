@@ -18,6 +18,7 @@ la aplicación a todos forzadamente, por mas que no hayan terminado sus respecti
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Flujo funcionamiento
+
 Al presionar el botón de ingreso de vehículos en index.html
 -Redirecciona a ingresoVehiculo.html
 
@@ -51,6 +52,7 @@ Saludos de cierre de programa, regresa al índex.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Información técnica
+
 -Uso de 5 paginas HTML, y 5 paginas JS
 -Sin código JS y CSS dentro del Html
 -Arrays, objetos, temporizadores solo en conjunto de las librerías externas.
@@ -78,6 +80,7 @@ En este caso los catch se manejaron con errores en la consola directamente. Sin 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Puntos a mejorar:
+
 Al momento de limpiar, ordenar y documentar el código, visualice algunas mejoras a implementar, que no fueron hechas por falta de tiempo, y que se deben al ir modificando el código en base al nuevo
 conocimiento adquirido clase a clase. Propio de la evolución del código.
 
