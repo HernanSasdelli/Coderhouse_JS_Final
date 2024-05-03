@@ -48,6 +48,7 @@ Botón Lavadero:
 Botón Hora de cerrar:
 -Botón cerrar: permite vaciar el lavadero, eliminando los vehículos en servicio.
 Saludos de cierre de programa, regresa al índex.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Información técnica
 -Uso de 5 paginas HTML, y 5 paginas JS
@@ -73,6 +74,7 @@ A su vez maneja try catch, para el manejo de errores, provenientes de las funcio
 En este caso los catch se manejaron con errores en la consola directamente. Sin interactuar con el usuario ya que se deben a errores de funcionamiento.
 
 -Se utilizo async await para detener la ejecución durante las alertas Swal2, ejemplos en la hoja librerías.js.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Puntos a mejorar:
