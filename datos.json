@@ -1,0 +1,48 @@
+{
+    "tiposVehiculo": [
+        {
+            "tipo": "Auto"
+        },
+        {
+            "tipo": "Camioneta/SUV"
+        },
+        {
+            "tipo": "Moto"
+        },
+        {
+            "tipo": "Vehículo pesado"
+        }
+    ],
+
+    
+    "tiposLavado": [
+        {
+            "tipo": "Lavado simple",
+            "detalle": "Aspirado, Lavado exterior, Secado por aire",
+            "costo": "$1000",
+            "duracion": "10 segundos",
+            "imagenUrl": "/images/lavado_simple.jpg"
+        },
+        {
+            "tipo": "Lavado premium",
+            "detalle": "Aspirado, resaltado de plásticos, Lavado exterior, Secado por aire, enserado",
+            "costo": "$2000",
+            "duracion": "45 segundos",
+            "imagenUrl": "/images/lavado_premium.jpg"
+        },
+        {
+            "tipo": "Solo aspirado",
+            "detalle": "Aspirado, resaltado de plásticos",
+            "costo": "$1000",
+            "duracion": "30 segundos",
+            "imagenUrl": "/images/solo_aspirado.jpg"
+        },
+        {
+            "tipo": "Detallado",
+            "detalle": "Aspirado, lavado de tapizados y alfombras, Lavado exterior detallado, pulido, enserado, tratamiento anti-rayas",
+            "costo": "$3500",
+            "duracion": "120 segundos",
+            "imagenUrl": "/images/detallado.jpg"
+        }
+    ]
+}

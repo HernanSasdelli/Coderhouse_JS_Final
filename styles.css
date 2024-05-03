@@ -1,0 +1,249 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('/images/fordGT2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 120px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    color: white;
+   
+}
+
+/* Contenido */
+#contenido {
+    width: 100%;
+    min-height: calc(100vh - 240px);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#retirarVehiculo {
+    margin-bottom: 20px; 
+    
+}
+
+/* Cuadros de diálogo */
+input[type="text"],
+select {
+    width: 100px; /* Tamaño fijo */
+    height: 20px; /* Tamaño fijo */
+}
+
+/* Recuadro con barras de desplazamiento */
+#lista_vehiculos, #lista_autos {
+    width: 200px; /* Tamaño fijo */
+    height: 150px; /* Tamaño fijo */
+    overflow: auto;
+    border: 1px solid #000;
+}
+
+
+/* Estilos para los botones del menú de opciones */
+
+nav {
+    text-align: center; /* Centra los elementos dentro del contenedor */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+
+/* Estilos para el formulario */
+form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilos para los campos del formulario */
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form select {
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+/* Estilos para el cuadro de lista con barras de desplazamiento */
+.scroll-box {
+    width: 600px; /* Tamaño fijo */
+    height: 300px; /* Tamaño fijo */
+    overflow: auto;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.tarjetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+    border: 2px solid #d2f2ff; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+}
+/* Estilos para la tarjeta */
+.tarjeta {
+    width: 300px; /* Ancho fijo */
+    max-width: calc(100% - 20px); /* Ancho máximo, ajustado al tamaño de la pantalla */
+    margin: 10px; /* Margen entre las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+    background-color: rgb(158, 207, 247); /* Fondo blanco */
+    border: 2px solid #007bff; /* Borde azul */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: all 0.3s ease;
+}
+/* Estilos cuando la tarjeta es enfocada (focused) */
+.tarjeta:focus {
+    /* Agrega efectos de estilo cuando la tarjeta está enfocada */
+    /* Por ejemplo, un borde resaltado */
+    outline: 2px solid #007bff; /* Borde azul */
+}
+
+/* Estilos cuando la tarjeta está activa (active) */
+.tarjeta:active {
+    /* Agrega efectos de estilo cuando la tarjeta está activa (por ejemplo, presionada) */
+    /* Por ejemplo, un cambio en el color de fondo */
+    background-color: #0b6dad; /* Color de fondo gris claro */
+}
+/* Estilos cuando el cursor pasa sobre la tarjeta */
+.tarjeta:hover {
+    /* Agrega efectos de estilo cuando el cursor pasa sobre la tarjeta */
+    /* Por ejemplo, un cambio en el tamaño o en el color de fondo */
+    transform: scale(1.1); /* Un posible zoom al pasar el cursor */
+    /* Otros efectos de estilo */
+}
+
+/* Estilos para la imagen de la tarjeta */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para la descripción de la tarjeta */
+.descripcion {
+    padding: 15px;
+}
+
+/* Estilos para los títulos de la descripción */
+.descripcion h3 {
+    margin-top: 0;
+}
+
+/* Estilos para los párrafos de la descripción */
+.descripcion p {
+    margin: 5px 0;
+}
+/* Estilos para el contenedor de estado */
+.estado-container {
+    background-color: #9cd7f5; 
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+    /*;*/
+}
+
+/* Estilos para el texto del estado */
+#estado-text {
+    font-weight: bold;
+}
+
+/* Estilos para los nuevos botones */
+button.retirar {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.retirar:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+button.forzar-retiro {
+    background-color: #808080; /* Gris */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botones {
+    
+    margin-bottom: 20px;
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #007bff; 
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    text-align: center;
+    min-width: 150px;
+    max-width: 200px;
+    margin: 10px;
+}
+
+
+
+#formularioAuto:disabled {
+    opacity: 0.5; /* Reduce la opacidad del formulario cuando está desactivado */
+    pointer-events: none; /* Evita que los eventos del mouse se activen en el formulario */
+    /* Otros estilos para indicar visualmente que el formulario está desactivado */
+}
+
